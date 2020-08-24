@@ -3,12 +3,12 @@ def oxford_comma(array)
     when 0
       ""
     when 1
-      arr.first
+      array.first
     when 2
-      arr.join(' and ')
+      array.join(' and ')
     else
-      [arr[0..-2].join(', '), arr.last].join(', and ')
+      [array[0..-2].join(', '), array.last].join(', and ')
     end
 
-  
+
 end
